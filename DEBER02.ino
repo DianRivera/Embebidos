@@ -69,13 +69,13 @@ if (inicio == false && key != NO_KEY && (key == '+' || key == '-' || key == 'x' 
 }
 if (final == true && key !=NO_KEY && key == '=')  // comparacion para realizar las operaciones
 {
-    if (op == '+')
+    if (op == '+')  //SUMA
     {resp= num1.toInt() + num2.toInt();}
-    if (op == '-')
+    if (op == '-')   //RESTA
     {resp= num1.toInt() - num2.toInt();}
-    if (op == 'x')
+    if (op == 'x')    //MULTIPLICACION
     {resp= num1.toInt() * num2.toInt();}
-    if (op == '/')
+    if (op == '/')    //DIVISION
     {resp= num1.toInt() / num2.toInt();}
     
     lcd.clear();
