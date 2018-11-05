@@ -39,7 +39,7 @@ Serial.print("Promedio Fila");promFila();
   Serial.print("Promedio Columna");promColum();
   Serial.print("Numero Mayor de Fila");highFila();
 }
-void promFila(){
+void promFila(){   //metodo promedio fila
     int sumaF=0;
   for(;i<10;i++){
     for(;j<4;j++){
@@ -54,7 +54,7 @@ void promFila(){
  i=0;
  j=0;
 }
-void promColum(){
+void promColum(){ //metodo promedio Columna
   int sumaC=0;
   for(;j<4;j++){
      for(;i<10;i++){
